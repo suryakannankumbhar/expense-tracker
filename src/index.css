@@ -6,7 +6,13 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(./assets/background.jpg);
-    background-size: cover;
+    background: black;
 }
+
+/* .MuiCard-root {
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+}
+.MuiCardContent-root {
+    color: white !important;
+} */
