@@ -35,8 +35,9 @@ const useTransactions = title => {
             {
                 data: filteredCategories.map(c => c.amount),
                 backgroundColor: filteredCategories.map(c => c.color),
-                radius: '80%',
-                hoverOffset: 10,
+                radius: '85%',
+                hoverOffset: 20,
+                borderColor: 'black',
             },
         ],
         labels: filteredCategories.map(c => c.type),

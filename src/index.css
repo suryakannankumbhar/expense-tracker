@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 #root,
 body,
 html {
@@ -5,14 +6,50 @@ html {
     margin: 0;
 }
 
-body {
-    background: black;
+* {
+    font-family: 'Quicksand', sans-serif !important;
 }
 
-/* .MuiCard-root {
-    background: rgba(255, 255, 255, 0.15) !important;
-    color: white !important;
+body {
+    background: white !important;
 }
-.MuiCardContent-root {
-    color: white !important;
-} */
+
+.MuiCard-root {
+    background: white !important;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255), 1em 1em 3em rgba(0, 0, 0, 0.3) !important;
+    color: black !important;
+}
+.MuiButton-outlinedPrimary {
+    color: black !important;
+    border-color: black !important;
+}
+
+.makeStyles-main-3 .MuiCardHeader-title {
+    font-size: 50px !important;
+}
+.makeStyles-expense-7,
+.makeStyles-income-6 {
+    border-bottom: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.MuiCardHeader-title,
+.MuiTypography-h5 {
+    font-weight: bold !important;
+}
+.MuiCardHeader-title {
+    font-size: 35px !important;
+}
+
+.MuiCardContent-root:last-child {
+    padding-top: 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #fff;
+    }
+}
