@@ -17,7 +17,7 @@ body {
 .MuiCard-root {
     background: white !important;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-        0 0 0 2px rgb(255, 255, 255), 1em 1em 3em rgba(0, 0, 0, 0.3) !important;
+        0 0 0 2px rgb(255, 255, 255), 2em 2em 6em rgba(0, 0, 0, 0.3) !important;
     color: black !important;
 }
 .MuiButton-outlinedPrimary {
